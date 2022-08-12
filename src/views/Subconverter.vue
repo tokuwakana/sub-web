@@ -337,12 +337,12 @@ export default {
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
-        emoji: true,
+        emoji: false,
         nodeList: false,
         extraset: false,
         sort: false,
-        udp: false,
-        tfo: false,
+        udp: true,
+        tfo: true,
         scv: false,
         fdn: false,
         appendType: false,
@@ -355,7 +355,7 @@ export default {
             doh: false // dns 查询是否使用 DoH
           },
           clash: {
-            doh: false
+            doh: true
           }
         }
       },
@@ -540,14 +540,14 @@ export default {
     notify() {
       const h = this.$createElement;
 
-      this.$notify({
-        title: "隐私提示",
-        type: "warning",
-        message: h(
-          "i",
-          { style: "color: teal" },
-          "各种订阅链接（短链接服务除外）生成纯前端实现，无隐私问题。默认提供后端转换服务，隐私担忧者请自行搭建后端服务。"
-        )
+##      this.$notify({
+##      title: "隐私提示",
+##        type: "warning",
+##        message: h(
+##          "i",
+##          { style: "color: teal" },
+##         "各种订阅链接（短链接服务除外）生成纯前端实现，无隐私问题。默认提供后端转换服务，隐私担忧者请自行搭建后端服务。"
+##       )
       });
     },
     confirmUploadConfig() {
