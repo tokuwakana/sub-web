@@ -255,6 +255,9 @@ export default {
           ClashR: "clashr",
           Surge2: "surge&ver=2",
         },
+        customBackend: {
+          "专属后端": "https://dyz.400808.xyz/sub?",
+        },
         backendOptions: [{ value: "http://dyz.400808.xyz/sub?" }],
         remoteConfig: [
           {
