@@ -277,12 +277,12 @@ export default {
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
-        emoji: true,
+        emoji: false,
         nodeList: false,
         extraset: false,
         sort: false,
-        udp: false,
-        tfo: false,
+        udp: true,
+        tfo: true,
         scv: false,
         fdn: false,
         appendType: false,
@@ -295,7 +295,7 @@ export default {
             doh: false // dns 查询是否使用 DoH
           },
           clash: {
-            doh: false
+            doh: true
           }
         }
       },
