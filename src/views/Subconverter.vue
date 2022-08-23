@@ -267,6 +267,12 @@ export default {
                 label: "rule",
                 value:
                   "https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
+              },
+              {
+                label: "BKrule",
+                value:
+                  "https://raw.githubusercontent.com/tokuwakana/rules/main/BKclash.ini"
+              }
               }
             ]
           }
