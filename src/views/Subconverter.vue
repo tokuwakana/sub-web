@@ -264,15 +264,14 @@ export default {
             label: "universal",
             options: [
               {
-                label: "rule",
-                value:
-                  "https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
-              },
-              {
-                label: "BKrule",
+                label: "BKrlue",
                 value:
                   "https://raw.githubusercontent.com/tokuwakana/rules/main/BKclash.ini"
-              }
+              },
+              {
+                label: "Rule",
+                value:
+                  "https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
               }
             ]
           }
