@@ -260,8 +260,9 @@ export default {
           "专属后端2": "https://dyz.400808.xyz/sub?",
         },
         backendOptions: [
-        { value: "http://frp.400808.xyz:33310/sub?" }],
-        { value: "http://dyz.400808.xyz/sub?" }],
+        { value: "http://frp.400808.xyz:33310/sub?" },
+        { value: "http://dyz.400808.xyz/sub?" },
+       ],
         remoteConfig: [
           {
             label: "universal",
