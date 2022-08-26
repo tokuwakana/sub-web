@@ -256,9 +256,12 @@ export default {
           Surge2: "surge&ver=2",
         },
         customBackend: {
-          "专属后端": "https://dyz.400808.xyz/sub?",
+          "专属后端1": "http://frp.400808.xyz:33310/sub?",
+          "专属后端2": "https://dyz.400808.xyz/sub?",
         },
-        backendOptions: [{ value: "http://dyz.400808.xyz/sub?" }],
+        backendOptions: [
+        { value: "http://frp.400808.xyz:33310/sub?" }],
+        { value: "http://dyz.400808.xyz/sub?" }],
         remoteConfig: [
           {
             label: "universal",
