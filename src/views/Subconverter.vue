@@ -270,12 +270,12 @@ export default {
               {
                 label: "BKrlue",
                 value:
-                  "https://raw.githubusercontent.com/tokuwakana/rules/main/BKclash.ini"
+                  "https://git.400808.xyz/https://raw.githubusercontent.com/tokuwakana/rules/main/BKclash.ini"
               },
               {
                 label: "Rule",
                 value:
-                  "https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
+                  "https://git.400808.xyz/https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
               }
             ]
           }
