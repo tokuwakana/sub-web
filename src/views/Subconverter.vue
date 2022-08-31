@@ -277,6 +277,11 @@ export default {
                 value:
                   "https://git.400808.xyz/https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
               }
+               {
+                label: "Gitrlue",
+                value:
+                  "https://git.400808.xyz/https://raw.githubusercontent.com/tokuwakana/rules/main/Gitrule.ini"
+              }
             ]
           }
         ]
