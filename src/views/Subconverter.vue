@@ -267,15 +267,25 @@ export default {
           {
             label: "universal",
             options: [
+             {
+                label: "Rlue",
+                value:
+                  "https://raw.githubusercontent.com/tokuwakana/rules/main/ClashRule.ini"
+              },
               {
                 label: "BKrlue",
                 value:
                   "https://raw.githubusercontent.com/tokuwakana/rules/main/BKclash.ini"
               },
-              {
+                {
                 label: "GitRule",
                 value:
                   "https://git.400808.xyz/https://raw.githubusercontent.com/tokuwakana/rules/main/Gitrule.ini"
+              },
+              {
+                label: "GitBkRule",
+                value:
+                  "https://git.400808.xyz/https://raw.githubusercontent.com/tokuwakana/rules/main/GitBkRule.ini"
               }
             ]
           }
