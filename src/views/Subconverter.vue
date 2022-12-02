@@ -257,13 +257,9 @@ export default {
         },
         customBackend: {
           "专属后端1": "http://frp.400808.xyz:33310/sub?",
-          "专属后端2": "https://dyz.400808.xyz/sub?",
-          "专属后端3": "https://oksubconver-tokuwakana.cloud.okteto.net/sub?",
         },
         backendOptions: [
         { value: "http://frp.400808.xyz:33310/sub?" },
-        { value: "http://dyz.400808.xyz/sub?" },
-        { value: "https://oksubconver-tokuwakana.cloud.okteto.net/sub?" },
        ],
         remoteConfig: [
           {
